@@ -249,7 +249,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/serialize.h \
     src/core.h \
     src/main.h \
-    src/miner.h \
+#src/miner.h \ [Disable Miner]
     src/net.h \
     src/key.h \
     src/db.h \
@@ -329,7 +329,7 @@ SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/script.cpp \
     src/core.cpp \
     src/main.cpp \
-    src/miner.cpp \
+#src/miner.cpp \ [Disable Miner]
     src/init.cpp \
     src/net.cpp \
     src/checkpoints.cpp \
