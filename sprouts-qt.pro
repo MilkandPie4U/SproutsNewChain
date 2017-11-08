@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = sproutsn-qt
+TARGET = sproutsnc-qt
 VERSION = 0.0.1
 INCLUDEPATH += src src/json src/qt
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
@@ -145,7 +145,7 @@ macx: {
         $$BOOST_LIB_PATH/libboost_thread-mt.a \
         $$BOOST_LIB_PATH/libboost_chrono-mt.a
     DEFINES += MAC_OSX MSG_NOSIGNAL=0
-    ICON = src/mac/artwork/SproutsN.icns
+    ICON = src/mac/artwork/NetCoin.icns
     QMAKE_INFO_PLIST=src/mac/Info.plist
     # osx 10.9 has changed the stdlib default to libc++. To prevent some link error, you may need to use libstdc++
     QMAKE_CXXFLAGS += -stdlib=libstdc++
@@ -250,7 +250,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/core.h \
     src/main.h \
     src/miner.h \
-    src/sproutsnc.h \
+    src/net.h \
     src/key.h \
     src/db.h \
     src/txdb.h \
@@ -297,7 +297,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/ui_interface.h \
     src/qt/rpcconsole.h \
     src/version.h \
-    src/sptsncbase.h \
+    src/netbase.h \
     src/clientversion.h \
     src/qt/shoppingpage.h \
     src/qt/networkpage.h \
@@ -324,14 +324,14 @@ SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/sync.cpp \
     src/util.cpp \
     src/hash.cpp \
-    src/sprtsncbase.cpp \
+    src/netbase.cpp \
     src/key.cpp \
     src/script.cpp \
     src/core.cpp \
     src/main.cpp \
     src/miner.cpp \
     src/init.cpp \
-    src/sproutsnc.cpp \
+    src/net.cpp \
     src/checkpoints.cpp \
     src/addrman.cpp \
     src/db.cpp \
@@ -352,7 +352,7 @@ SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/qt/walletmodel.cpp \
     src/bitcoinrpc.cpp \
     src/rpcdump.cpp \
-    src/rpcsprtsnc.cpp \
+    src/rpcnet.cpp \
     src/rpcmining.cpp \
     src/rpcwallet.cpp \
     src/rpcblockchain.cpp \
