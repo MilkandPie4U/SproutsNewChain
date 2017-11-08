@@ -230,7 +230,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/coincontrol.h \
     src/sync.h \
     src/util.h \
-    src/hash.h \
+#src/hash.h \ [Disable Miner]
     src/uint256.h \
     src/kernel.h \
     src/scrypt.h \
@@ -323,7 +323,7 @@ SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/version.cpp \
     src/sync.cpp \
     src/util.cpp \
-    src/hash.cpp \
+#src/hash.cpp \ [Disable Miner]
     src/netbase.cpp \
     src/key.cpp \
     src/script.cpp \
