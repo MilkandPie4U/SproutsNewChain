@@ -1,6 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2013 The Bitcoin developers
 // Copyright (c) 2011-2012 Litecoin Developers
+// Copyright (c) 2017 Sprouts New Chain Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_KEY_H
@@ -11,7 +12,7 @@
 #include "allocators.h"
 #include "serialize.h"
 #include "uint256.h"
-#include "hash.h"
+//#include "hash.h"
 
 // secp256k1:
 // const unsigned int PRIVATE_KEY_SIZE = 279;

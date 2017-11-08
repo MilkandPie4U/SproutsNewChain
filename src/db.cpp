@@ -1,6 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2012 Litecoin Developers
+// Copyright (c) 2017 Sprouts New Chain Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,7 +11,7 @@
 #include "util.h"
 // #include "main.h"
 // #include "ui_interface.h"
-#include "hash.h"
+//#include "hash.h"
 #include "addrman.h"
 
 #include <boost/version.hpp>
