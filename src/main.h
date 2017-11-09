@@ -55,7 +55,7 @@ static const int64_t MIN_TX_FEE = 1000000;
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 static const int64_t DUST_SOFT_LIMIT = 100000000;
 static const int64_t DUST_HARD_LIMIT = 1000000;
-static const int64_t MAX_MONEY = 325000000 * COIN; // NetCoin: maximum of 325M coins
+static const int64_t MAX_MONEY = 5000000000 * COIN; // NetCoin: maximum of 325M coins
 static const int64_t MIN_TXOUT_AMOUNT = MIN_TX_FEE;
 
 
