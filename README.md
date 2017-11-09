@@ -1,4 +1,5 @@
 Sprouts New Chain Project. 
-[Null]
+
+The project build from old sprouts.
 
 Soon we update it ;)
