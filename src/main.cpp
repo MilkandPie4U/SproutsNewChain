@@ -6,6 +6,7 @@
 // Copyright (c) 2013 PandaCoin Developers
 // Copyright (c) 2014 NetCoin Developers
 // Copyright (c) 2015 BlackCoin Developers
+// Copyright (c) 2017 Sprouts New Chain Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
