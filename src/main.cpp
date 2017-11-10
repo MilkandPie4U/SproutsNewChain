@@ -52,8 +52,8 @@ CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 
 // initial netcoin difficulty params - preKGW then digishield
 static const int64_t nTargetTimespan = 60 * 60;	// NetCoin: every 60 minutes
-unsigned int nTargetSpacing = 1 * 60; // NetCoin: 60 sec
-unsigned int nStakeTargetSpacing = 2 * 60; // NetCoin: 60 sec
+unsigned int nTargetSpacing = 1 * 30; // NetCoin: 60 sec
+unsigned int nStakeTargetSpacing = 2 * 30; // NetCoin: 60 sec
 static const int64_t nInterval = nTargetTimespan / nTargetSpacing;	// 60 blocks
 unsigned int nStakeMinAge = 1 * 60 * 60; // 1 hour
 unsigned int nStakeMaxAge = 2592000; // 30 days
