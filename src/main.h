@@ -413,7 +413,7 @@ public:
     {
         // Large (in bytes) low-priority (new, small-coin) transactions
         // need a fee.
-        return dPriority > COIN * 1440 / 250; // NetCoin: 1440 blocks found a day. Priority cutoff is 1 netcoin day / 250 bytes.
+        return dPriority > COIN * 440 / 250; // NetCoin: 1440 blocks found a day. Priority cutoff is 1 netcoin day / 250 bytes.
     }
 
     // Netcoin nVersion=1 and 2
