@@ -37,7 +37,7 @@ class CTxMemPool;
 
 static const unsigned int MAX_TX_COMMENT_LEN = 140;
 
-static const unsigned int MAX_BLOCK_SIZE = 1000000;
+static const unsigned int MAX_BLOCK_SIZE = 2000000;
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
 static const unsigned int DEFAULT_BLOCK_MAX_SIZE = 500000;
 static const unsigned int DEFAULT_BLOCK_PRIORITY_SIZE = 17000;
@@ -51,7 +51,7 @@ static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
 /** Default for -maxorphanblocksmib, maximum number of memory to keep orphan blocks */
 static const unsigned int DEFAULT_MAX_ORPHAN_BLOCKS = 40;
 static const unsigned int MAX_INV_SZ = 50000;
-static const int64_t MIN_TX_FEE = 1000000;
+static const int64_t MIN_TX_FEE = 10000000;
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 static const int64_t DUST_SOFT_LIMIT = 100000000;
 static const int64_t DUST_HARD_LIMIT = 1000000;
