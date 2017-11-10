@@ -154,7 +154,7 @@ extern bool fUseFastIndex;
 extern unsigned int nDerivationMethodIndex;
 
 // Minimum disk space required - used in CheckDiskSpace()
-static const uint64_t nMinDiskSpace = 52428800;
+static const uint64_t nMinDiskSpace = 22428800;
 
 class CReserveKey;
 class CTxDB;
